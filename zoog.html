@@ -1,0 +1,23 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  strokeWeight(4) //make it look like a hammer
+  stroke(41) //make it look like a hammer
+  fill('silver') //the color of the hammer
+  ellipse(220,110,50,50) //this ellipse is on top of my hammer to make it look like a hammer 
+	rect(190,100,50,250) //this rect is bellow the ellipse
+	rect(90,100,250,100) //this rect is the holder of the hammer
+	line(80,180,80,120) //the left line side of the hammer
+	line(90,100,80,120) // the side between the line of the hammer
+	line(90,200,80,180) //the side between the line of the hammer
+	line(350,120,340,100) //the right side of the line across the line
+	line(350,180,340,200) //the opposite side acrooss the line
+	line(350,120,350,180) //the actuall right side of the hammer
+  textSize(32) //the size to name the hammer
+  text('mjoinir',10,30) //the name of the hammer
+  point(220,90) //the point inside of the ellipse
+  //hello
+}
