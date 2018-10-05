@@ -1,9 +1,16 @@
-function setup() {
-  createCanvas(400, 400);
-}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
 
-function draw() {
-  background(220);
+<head>
+    <title>p5js Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script>
+      function setup() {
+        createCanvas(400,400);
+      }
+      
+      function draw() {
+        	background(220);
   strokeWeight(4) //make it look like a hammer
   stroke(41) //make it look like a hammer
   fill('silver') //the color of the hammer
@@ -20,4 +27,23 @@ function draw() {
   text('mjoinir',10,30) //the name of the hammer
   point(220,90) //the point inside of the ellipse
   //hello
-}
+
+      }
+    </script>
+</head>
+
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/Carlos0125/p5js/blob/master/zoog.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
+    </script>
+</body>
+
+
+</html>
